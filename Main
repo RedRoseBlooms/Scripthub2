@@ -48,14 +48,14 @@ Rayfield:Notify({
 })
 
 local Button = MainTab:CreateButton({
-   Name = "Ink Game 0.1",
+   Name = "Ink Game | Alex",
    Callback = function()
    loadstring(game:HttpGet("https://raw.githubusercontent.com/AlexScriptX/Ink-Game-Script/refs/heads/main/Ink%20Game%20by%20AlexScriptX.lua"))()
    end,
 })
 
 local Button = MainTab:CreateButton({
-   Name = "Ink Game 0.2",
+   Name = "Ink Game | VoidWare",
    Callback = function()
    loadstring(game:HttpGet("https://raw.githubusercontent.com/VapeVoidware/VW-Add/main/inkgame.lua", true))()
    end,
