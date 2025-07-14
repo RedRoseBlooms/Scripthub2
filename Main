@@ -60,3 +60,10 @@ local Button = MainTab:CreateButton({
    loadstring(game:HttpGet("https://raw.githubusercontent.com/VapeVoidware/VW-Add/main/inkgame.lua", true))()
    end,
 })
+
+local Button = MainTab:CreateButton({
+   Name = "Ink Game | Sigma",
+   Callback = function()
+   loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/d82a88737d4c79e00995ca9384bd098e.lua"))()
+   end,
+})
